@@ -64,6 +64,9 @@
     "typescript": "^5.2.2",
     "vite": "^4.4.11"
   },
+  "engines": {
+    "npm": "^18"
+  },
   "prettier": {
     "plugins": [
       "prettier-plugin-tailwindcss"
