@@ -32,20 +32,25 @@ function NewsletterForm({
       className={cn('newsletter-form is-revealing flex flex-col gap-2 sm:flex-row', className)}
     >
       <div className="mr-2 flex-shrink flex-grow">
-        <label className="hidden" htmlFor="email" aria-hidden="true">
-          Email
-        </label>
-        <input
-          required
-          placeholder="Your best email&hellip;"
-          id="email"
-          name="email"
-          type="email"
-          value={email}
-          onChange={handleChange}
-          autoComplete="off"
-          className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
-        />
+        {!success && (
+          <>
+          <label className="hidden" htmlFor="email" aria-hidden="true">
+            Email
+          </label>
+          <input
+            required
+            placeholder="Your best email&hellip;"
+            id="email"
+            name="email"
+            type="email"
+            value={email}
+            onChange={handleChange}
+            autoComplete="off"
+            className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
+            />
+          </>
+        )}
+
         {success && (
           <div className="mt-2 text-xs italic text-gray-500">Email submitted successfully!</div>
         )}

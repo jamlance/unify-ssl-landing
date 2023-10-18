@@ -11,13 +11,18 @@ function AboutPage() {
       >
         {/* prettier-ignore */}
         <p>
-            Holly is a free HTML/CSS landing page designed and developed by <a href="https://twitter.com/pacovitiello">@pacovitiello</a> and <a href="https://twitter.com/DavidePacilio">@DavidePacilio</a>!
+            UnifySSL is a powerful Web Routing tool used to secure your web traffic and provider your end users with the best experience possible!
           </p>
         <p>
-          Holly is suitable for all kind of startups, it's easily customizable, and it's
-          downloadable for personal and commercial use.
+          <ul>
+            <li>Conduct A/B Tests.</li>
+            <li>Setup Health Montoring.</li>
+            <li>Put up Maintenance Pages.</li>
+            <li>Host Your Website Anywhere.</li>
+            <li>Issue Certificates for your domains.</li>
+          </ul>
         </p>
-        <p>This template is distributed under the MIT License.</p>
+        <p>There is no limit when you're secured.</p>
       </Article>
     </Layout>
   )

@@ -13,12 +13,13 @@ export default function SupportPage() {
   return (
     <Layout>
       <Article
-        title="FAQ's"
+        title="Inquiries"
         imageAlt="Lorem Picsum"
         imageSrc="https://picsum.photos/420/640?grayscale"
       >
-        <p>Add your support content here.</p>
-
+        <p>Reach out to us</p>
+        {!success && (
+          
         <form className="space-y-4">
           <div>
             <label className="block text-lg font-medium leading-10" htmlFor="name">
@@ -61,12 +62,13 @@ export default function SupportPage() {
             Submit
           </button>
 
+        </form>
+        )}
           {success && (
             <div className="mt-2 text-xs italic text-gray-500">
               🎉 Do something when the form is submitted!
             </div>
           )}
-        </form>
       </Article>
     </Layout>
   )
