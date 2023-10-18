@@ -65,7 +65,7 @@
     "vite": "^4.4.11"
   },
   "engines": {
-    "npm": "^18"
+    "node": "18.x"
   },
   "prettier": {
     "plugins": [
