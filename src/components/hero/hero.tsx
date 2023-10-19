@@ -71,7 +71,9 @@ function Hero({
           </div>
 
           {!!illustration && (
-            <div className="relative -mx-6 py-10 lg:mx-0 lg:p-0">{illustration}</div>
+            <div className="relative -mx-6 hidden py-10 md:block lg:mx-0 lg:p-0">
+              {illustration}
+            </div>
           )}
         </div>
       </div>

@@ -1778,6 +1778,9 @@ select {
   }
 }
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;

@@ -39,10 +39,10 @@ export default function FaqsPage() {
           <p>
             Unify SSL is super affordable at only $5USD/mo for a single domain to a single website.{' '}
           </p>
-          <p>
-            A/B testing is super affordable as the more sites you test, the less you may pay:
+          {/* <p> */}
+            {/* A/B testing is super affordable as the more sites you test, the less you may pay: */}
             
-          </p>
+          {/* </p> */}
           <table>
               <thead>
                 <th>Sites</th>
@@ -108,7 +108,7 @@ export default function FaqsPage() {
             Here's another example, let's say you have two domains, pointing towards the same website, this would count as 2 sites, as you have 2 domains pointing towards 1 website. */}
 
           </p>
-          <p>If you pass your tier limit is our policy is to bump you up to the next tier in order to ensure your website remains available to your users and promptly notify the account owner.</p>
+          <p>If you pass your tier limit our policy is to bump you up to the next tier in order to ensure your website remains available to your users and promptly notify the account owner.</p>
 
           <p>Our base tier is suitable for most sites.</p>
           <p>

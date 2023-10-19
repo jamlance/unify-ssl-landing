@@ -32,7 +32,7 @@ function Article({
           </ArticleContent>
 
           {imageSrc && (
-            <ArticleMedia>
+            <ArticleMedia className="hidden md:block">
               <ArticleImage alt={imageAlt!} src={imageSrc} />
             </ArticleMedia>
           )}

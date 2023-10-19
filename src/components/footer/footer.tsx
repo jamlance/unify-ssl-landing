@@ -1,5 +1,5 @@
 import { Menu } from '@/components/menu'
-import { SocialLinks } from '@/components/social-links'
+// import { SocialLinks } from '@/components/social-links'
 
 function Footer() {
   return (
@@ -7,7 +7,7 @@ function Footer() {
       <div className="mx-auto w-full max-w-6xl px-6">
         <div className="relative flex flex-col items-center gap-6 lg:flex-row lg:items-end lg:justify-between">
           <nav className="flex flex-col items-center gap-6 lg:order-1 lg:items-end">
-            <SocialLinks className="flex gap-4" />
+            {/* <SocialLinks className="flex gap-4" /> */}
             <Menu className="flex gap-4" />
           </nav>
           <div className="">&copy; Unify SSL</div>
